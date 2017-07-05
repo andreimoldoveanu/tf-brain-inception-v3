@@ -1,6 +1,6 @@
 # tf-brain-inception-v3
 
-Note: Refer to https://codelabs.developers.google.com/codelabs/tensorflow-for-poets for detailed info
+Refer to https://codelabs.developers.google.com/codelabs/tensorflow-for-poets for detailed info.
 
 Steps to retrain and test the net with your own images:
 
