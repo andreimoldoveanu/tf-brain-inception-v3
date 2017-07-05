@@ -6,7 +6,7 @@ Steps to retrain and test the net with your own images:
 
 - Download images into a main directory with sub-directories for each category
   - mkdir <image_dir>
-    - Example:
+    - Example (it will create <image_dir> as "flower_photos"):
       - curl -O http://download.tensorflow.org/example_images/flower_photos.tgz
       - tar xzf flower_photos.tgz
 - Create the directories
