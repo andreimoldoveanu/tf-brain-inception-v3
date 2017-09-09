@@ -22,9 +22,9 @@ Steps to retrain and test the net with your own images:
     --summaries_dir=training_summaries/basic \
     --output_graph=retrained_graph.pb \
     --output_labels=retrained_labels.txt \
-    --image_dir=<image_dir>
+    --image_dir=flower_photos
 - Slow retrain (high accuracy) 
-  - python /tensorflow/tensorflow/examples/image_retraining/retrain.py \
+  - python retrain.py \
     --bottleneck_dir=bottlenecks \
     --model_dir=inception \
     --summaries_dir=training_summaries/long \
