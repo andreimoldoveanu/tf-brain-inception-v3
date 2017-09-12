@@ -22,7 +22,7 @@ Steps to retrain and test the net with your own images:
     --summaries_dir=training_summaries/basic \
     --output_graph=retrained_graph.pb \
     --output_labels=retrained_labels.txt \
-    --image_dir=flower_photos
+    --image_dir=<image_dir>
 - Slow retrain (high accuracy) 
   - python retrain.py \
     --bottleneck_dir=bottlenecks \
@@ -30,6 +30,6 @@ Steps to retrain and test the net with your own images:
     --summaries_dir=training_summaries/long \
     --output_graph=retrained_graph.pb \
     --output_labels=retrained_labels.txt \
-    --image_dir=flower_photos
+    --image_dir=<image_dir>
 - Test it
   - python label_image.py <new image to check> (Image shoud be different from the images used to train the net)
