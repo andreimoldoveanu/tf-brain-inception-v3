@@ -2,8 +2,11 @@
 
 Refer to https://codelabs.developers.google.com/codelabs/tensorflow-for-poets for detailed info.
 
-Steps to retrain and test the net with your own images:
+Follow instructions here if you need to install Tensorflow in a docker machine:
+- https://github.com/stefanutti/ai-dqn
+  - If you don't need GPU support of X graphics, skip some parts of the procedure
 
+Steps to retrain and test the net with your own images:
 - Download images into a main directory with sub-directories for each category
   - mkdir <image_dir>
     - Example (it will create <image_dir> as "flower_photos"):
