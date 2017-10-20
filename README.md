@@ -4,6 +4,10 @@ Refer to https://codelabs.developers.google.com/codelabs/tensorflow-for-poets fo
 
 Follow instructions here to install a Tensorflow docker container:
 - https://store.docker.com/community/images/tensorflow/tensorflow
+- Start the container
+  - docker run -it --name tf-brain-inception-v3 bash
+  - download this project
+    - docker run -it --name tf-brain-inception-v3 stefanutti/tf-brain-inception-v3 bash
 
 Steps to retrain and test the net with your own images:
 - Download images into a main directory with sub-directories for each category
